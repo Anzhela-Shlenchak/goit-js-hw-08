@@ -1,8 +1,8 @@
-ul, li {
+ul {
     list-style: none;
 }
 body {
-    margin: 0 auto;
+    margin: 0;
 }
 .gallery {
 display: flex;
@@ -10,7 +10,6 @@ padding: 0;
 margin: 24px 0;
 gap: 24px;
 flex-wrap: wrap;
-max-width: 1128px;
 justify-content: center;
 }
 .gallery-image {
